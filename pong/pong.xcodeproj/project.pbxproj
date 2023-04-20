@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C58932B29F1A534001D5317 /* pongApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C58932A29F1A534001D5317 /* pongApp.swift */; };
+		8C58932D29F1A534001D5317 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C58932C29F1A534001D5317 /* ContentView.swift */; };
+		8C58932F29F1A534001D5317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C58932E29F1A534001D5317 /* Assets.xcassets */; };
+		8C58933229F1A534001D5317 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C58933129F1A534001D5317 /* Preview Assets.xcassets */; };
+		8C58933D29F1A534001D5317 /* pongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C58933C29F1A534001D5317 /* pongTests.swift */; };
+		8C58934729F1A534001D5317 /* pongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C58934629F1A534001D5317 /* pongUITests.swift */; };
+		8C58934929F1A534001D5317 /* pongUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C58934829F1A534001D5317 /* pongUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C58933929F1A534001D5317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C58931F29F1A534001D5317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C58932629F1A534001D5317;
+			remoteInfo = pong;
+		};
+		8C58934329F1A534001D5317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C58931F29F1A534001D5317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C58932629F1A534001D5317;
+			remoteInfo = pong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C58932729F1A534001D5317 /* pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C58932A29F1A534001D5317 /* pongApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pongApp.swift; sourceTree = "<group>"; };
+		8C58932C29F1A534001D5317 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C58932E29F1A534001D5317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C58933129F1A534001D5317 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C58933329F1A534001D5317 /* pong.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pong.entitlements; sourceTree = "<group>"; };
+		8C58933829F1A534001D5317 /* pongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C58933C29F1A534001D5317 /* pongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pongTests.swift; sourceTree = "<group>"; };
+		8C58934229F1A534001D5317 /* pongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C58934629F1A534001D5317 /* pongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pongUITests.swift; sourceTree = "<group>"; };
+		8C58934829F1A534001D5317 /* pongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pongUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C58932429F1A534001D5317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C58933529F1A534001D5317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C58933F29F1A534001D5317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C58931E29F1A534001D5317 = {
+			isa = PBXGroup;
+			children = (
+				8C58932929F1A534001D5317 /* pong */,
+				8C58933B29F1A534001D5317 /* pongTests */,
+				8C58934529F1A534001D5317 /* pongUITests */,
+				8C58932829F1A534001D5317 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C58932829F1A534001D5317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C58932729F1A534001D5317 /* pong.app */,
+				8C58933829F1A534001D5317 /* pongTests.xctest */,
+				8C58934229F1A534001D5317 /* pongUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C58932929F1A534001D5317 /* pong */ = {
+			isa = PBXGroup;
+			children = (
+				8C58932A29F1A534001D5317 /* pongApp.swift */,
+				8C58932C29F1A534001D5317 /* ContentView.swift */,
+				8C58932E29F1A534001D5317 /* Assets.xcassets */,
+				8C58933329F1A534001D5317 /* pong.entitlements */,
+				8C58933029F1A534001D5317 /* Preview Content */,
+			);
+			path = pong;
+			sourceTree = "<group>";
+		};
+		8C58933029F1A534001D5317 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C58933129F1A534001D5317 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C58933B29F1A534001D5317 /* pongTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C58933C29F1A534001D5317 /* pongTests.swift */,
+			);
+			path = pongTests;
+			sourceTree = "<group>";
+		};
+		8C58934529F1A534001D5317 /* pongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C58934629F1A534001D5317 /* pongUITests.swift */,
+				8C58934829F1A534001D5317 /* pongUITestsLaunchTests.swift */,
+			);
+			path = pongUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C58932629F1A534001D5317 /* pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C58934C29F1A534001D5317 /* Build configuration list for PBXNativeTarget "pong" */;
+			buildPhases = (
+				8C58932329F1A534001D5317 /* Sources */,
+				8C58932429F1A534001D5317 /* Frameworks */,
+				8C58932529F1A534001D5317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pong;
+			productName = pong;
+			productReference = 8C58932729F1A534001D5317 /* pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C58933729F1A534001D5317 /* pongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C58934F29F1A534001D5317 /* Build configuration list for PBXNativeTarget "pongTests" */;
+			buildPhases = (
+				8C58933429F1A534001D5317 /* Sources */,
+				8C58933529F1A534001D5317 /* Frameworks */,
+				8C58933629F1A534001D5317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C58933A29F1A534001D5317 /* PBXTargetDependency */,
+			);
+			name = pongTests;
+			productName = pongTests;
+			productReference = 8C58933829F1A534001D5317 /* pongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C58934129F1A534001D5317 /* pongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C58935229F1A534001D5317 /* Build configuration list for PBXNativeTarget "pongUITests" */;
+			buildPhases = (
+				8C58933E29F1A534001D5317 /* Sources */,
+				8C58933F29F1A534001D5317 /* Frameworks */,
+				8C58934029F1A534001D5317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C58934429F1A534001D5317 /* PBXTargetDependency */,
+			);
+			name = pongUITests;
+			productName = pongUITests;
+			productReference = 8C58934229F1A534001D5317 /* pongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C58931F29F1A534001D5317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8C58932629F1A534001D5317 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					8C58933729F1A534001D5317 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8C58932629F1A534001D5317;
+					};
+					8C58934129F1A534001D5317 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8C58932629F1A534001D5317;
+					};
+				};
+			};
+			buildConfigurationList = 8C58932229F1A534001D5317 /* Build configuration list for PBXProject "pong" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C58931E29F1A534001D5317;
+			productRefGroup = 8C58932829F1A534001D5317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C58932629F1A534001D5317 /* pong */,
+				8C58933729F1A534001D5317 /* pongTests */,
+				8C58934129F1A534001D5317 /* pongUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C58932529F1A534001D5317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C58933229F1A534001D5317 /* Preview Assets.xcassets in Resources */,
+				8C58932F29F1A534001D5317 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C58933629F1A534001D5317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C58934029F1A534001D5317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C58932329F1A534001D5317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C58932D29F1A534001D5317 /* ContentView.swift in Sources */,
+				8C58932B29F1A534001D5317 /* pongApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C58933429F1A534001D5317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C58933D29F1A534001D5317 /* pongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C58933E29F1A534001D5317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C58934929F1A534001D5317 /* pongUITestsLaunchTests.swift in Sources */,
+				8C58934729F1A534001D5317 /* pongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C58933A29F1A534001D5317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C58932629F1A534001D5317 /* pong */;
+			targetProxy = 8C58933929F1A534001D5317 /* PBXContainerItemProxy */;
+		};
+		8C58934429F1A534001D5317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C58932629F1A534001D5317 /* pong */;
+			targetProxy = 8C58934329F1A534001D5317 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C58934A29F1A534001D5317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C58934B29F1A534001D5317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8C58934D29F1A534001D5317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pong/pong.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pong/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rutger.pong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8C58934E29F1A534001D5317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pong/pong.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pong/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rutger.pong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8C58935029F1A534001D5317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rutger.pongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pong.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pong";
+			};
+			name = Debug;
+		};
+		8C58935129F1A534001D5317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rutger.pongTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pong.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pong";
+			};
+			name = Release;
+		};
+		8C58935329F1A534001D5317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rutger.pongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = pong;
+			};
+			name = Debug;
+		};
+		8C58935429F1A534001D5317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rutger.pongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = pong;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C58932229F1A534001D5317 /* Build configuration list for PBXProject "pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C58934A29F1A534001D5317 /* Debug */,
+				8C58934B29F1A534001D5317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C58934C29F1A534001D5317 /* Build configuration list for PBXNativeTarget "pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C58934D29F1A534001D5317 /* Debug */,
+				8C58934E29F1A534001D5317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C58934F29F1A534001D5317 /* Build configuration list for PBXNativeTarget "pongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C58935029F1A534001D5317 /* Debug */,
+				8C58935129F1A534001D5317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C58935229F1A534001D5317 /* Build configuration list for PBXNativeTarget "pongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C58935329F1A534001D5317 /* Debug */,
+				8C58935429F1A534001D5317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C58931F29F1A534001D5317 /* Project object */;
+}
